@@ -32,6 +32,7 @@ if "Row" not in data:
 rows = data["Row"]
 row = next(r for r in rows if r["Created_x0020_Date."].startswith(today))
 unique_id = row["UniqueId"].strip("{}")
+#print(r.status_code, r.text[:200])
 
 # Step 2: Convert UniqueId to itemId
 r = requests.get(

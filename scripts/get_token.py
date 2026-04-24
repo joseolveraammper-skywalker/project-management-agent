@@ -12,7 +12,9 @@ bearer_token = None
 def handle_request(request):
     global bearer_token
     auth = request.headers.get("authorization", "")
-    if auth.startswith("Bearer ") and "ammper-my.sharepoint.com" in request.url:
+    if (auth.startswith("Bearer eyJhbGciOiJSUzI1Ni") and 
+        "ammper-my.sharepoint.com" in request.url and
+        "_api" in request.url):
         bearer_token = auth.replace("Bearer ", "")
 
 async def main():
@@ -26,6 +28,7 @@ async def main():
         page = await context.new_page()
         page.on("request", handle_request)
         await page.goto(GRABACIONES_URL)
+        #await asyncio.sleep(10)
 
         # Poll up to 60s for a bearer token (covers manual login time)
         for _ in range(60):
@@ -35,6 +38,7 @@ async def main():
 
         await context.storage_state(path=SESSION_FILE)
         await browser.close()
+        
 
 asyncio.run(main())
 
