@@ -42,7 +42,7 @@ r = requests.get(f"{PERSONAL_BASE}/v2.1/drives/{DRIVE_ID}/items/{item_id}/media/
 transcript = r.json()["value"][0]
 download_url = transcript["temporaryDownloadUrl"]
 ts = datetime.strptime(row["Created_x0020_Date."], "%Y-%m-%dT%H:%M:%SZ").strftime("%Y%m%d_%H%M%S")
-base_name = transcript["displayName"].replace(".json", "").replace(" ", "_")
+base_name = "_".join(transcript["displayName"].replace(".json", "").split())
 vtt_filename = f"{base_name}_{ts}.vtt"
 txt_filename = f"{base_name}_{ts}.txt"
 

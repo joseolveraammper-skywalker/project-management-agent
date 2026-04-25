@@ -1,17 +1,123 @@
 {
     "Eduardo Rafael Ornelas Aragón": {
         "alias": "Rafa",
+        "other_alias": ["Rafita", "Lalo"],
         "department": "Sistemas y Transformación Digital",
+        "role": "ERCOT Project Manager",
         "context": ""
     },
     "Christopher Fabian Aguilar De León": {
         "alias": "Chris",
-        "department": "",
+        "other_alias": ["Chris ERCOT"],
+        "department": "Sistemas y Transformación Digital",
+        "role": "Project Manager / Frontend developer Sr / Tech lead",
         "context": ""
     },
     "Jose Manuel Olvera Orozco": {
         "alias": "José",
-        "department": "",
+        "other_alias": ["Jose", "Pepe", "Manuel"],
+        "department": "Sistemas y Transformación Digital",
+        "role": "US and Europe Power Markets Project Leader Sr",
+        "context": ""
+    },
+    "Alberto José López Carranza (Externo)": {
+        "alias": "Alberto",
+        "other_alias": ["Albert"],
+        "department": "Sistemas y Transformación Digital",
+        "role": "Backend developer Sr / Tech lead",
+        "context": ""
+    },
+    "Alejandro Brito Damas (Externo)": {
+        "alias": "Alejandro",
+        "other_alias": ["Alex"],
+        "department": "Sistemas y Transformación Digital",
+        "role": "Backend developer Jr",
+        "context": ""
+    },
+    "Angel Choque Cuyo (Externo)": {
+        "alias": "Angel",
+        "other_alias": [],
+        "department": "Sistemas y Transformación Digital",
+        "role": "Backend developer",
+        "context": ""
+    },
+    "Daniel Eduardo Villalobos Fajardo (Externo)": {
+        "alias": "Daniel",
+        "other_alias": [],
+        "department": "Sistemas y Transformación Digital",
+        "role": "Frontend developer",
+        "context": ""
+    },
+    "Dickson Arley Garcia Rincon": {
+        "alias": "Dickson",
+        "other_alias": [],
+        "department": "Sistemas y Transformación Digital",
+        "role": "Backend developer Sr / Tech lead",
+        "context": ""
+    },
+    "Héctor Javier Medina Hernández (Externo)": {
+        "alias": "Héctor",
+        "other_alias": ["Hec"],
+        "department": "Sistemas y Transformación Digital",
+        "role": "Backend developer Sr / Tech lead",
+        "context": ""
+    },
+    "Jorge Orobio Auz (Externo)": {
+        "alias": "Jorge",
+        "other_alias": ["George"],
+        "department": "Sistemas y Transformación Digital",
+        "role": "Frontend developer",
+        "context": ""
+    },
+    "Nimsy Vianney Soriano Martínez (Externo)": {
+        "alias": "Nimsy",
+        "other_alias": [],
+        "department": "Sistemas y Transformación Digital",
+        "role": "QA",
+        "context": ""
+    },
+    "Noe Alejandro Juarez Romero (externo)": {
+        "alias": "Noe",
+        "other_alias": [],
+        "department": "Sistemas y Transformación Digital",
+        "role": "Frontend developer Sr / Tech lead",
+        "context": ""
+    },
+    "Roosselvet Pacci Vargas (Externo)": {
+        "alias": "Roosselvet",
+        "other_alias": ["Ross"],
+        "department": "Sistemas y Transformación Digital",
+        "role": "Backend developer",
+        "context": ""
+    },
+    "Michael Cristopher Rodrigo Apaza": {
+        "alias": "Roosselvet",
+        "other_alias": ["Mike"],
+        "department": "Sistemas y Transformación Digital",
+        "role": "Backend developer Sr",
+        "context": ""
+    },
+    "Fernando Jose Flores Mendoza (Externo)": {
+        "alias": "Fer",
+        "other_alias": ["Fer Flores"],
+        "department": "Sistemas y Transformación Digital",
+        "role": "Frontend developer",
+        "context": ""
+    },
+    "Carlos Gualberto Rivas Plata (Externo)": {
+        "alias": "Carlos",
+        "other_alias": ["Carlos Rivas"],
+        "department": "Sistemas y Transformación Digital",
+        "role": "Backend developer",
+        "context": ""
+    },
+    "Enrique Humberto Ballesteros Caloca": {
+        "alias": "Enrique",
+        "other_alias": ["Kike"],
+        "department": "Sistemas y Transformación Digital",
+        "role": "Subdirector Sistemas y Transformación Digital",
         "context": ""
     }
 }
+
+
