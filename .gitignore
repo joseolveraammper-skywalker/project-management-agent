@@ -1,0 +1,14 @@
+# Secrets — never commit
+scripts/vars.py
+scripts/session.json
+
+# Local cache
+scripts/.vtt_cache/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
